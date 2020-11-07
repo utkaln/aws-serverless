@@ -112,6 +112,13 @@ var WildRydes = window.WildRydes || {};
         $('#signinForm').submit(handleSignin);
         $('#registrationForm').submit(handleRegister);
         $('#verifyForm').submit(handleVerify);
+        $('#applyMembership').submit(handleApplyMembership);
+        $('#updateMembership').submit(handleUpdateMembership);
+        $('#renewMembership').submit(handleRenewMembership);
+        $('#searchMembers').submit(handleSearchMembers);
+        $('#adminUpdateMember').submit(handleAdminUpdateMember);
+        $('#autoUpdateFee').submit(handleAutoUpdateFee);
+        $('#adminDownloadDirectory').submit(handleAdminDownloadDirectory);
     });
 
     function handleSignin(event) {
